@@ -17,11 +17,11 @@ int NaturalNumbers(int number1, int number2)
     int sum = number1;
     if (number1 < number2)
     {
-        sum = sum + NaturalNumbers(number1+1, number2);
+        sum = sum + NaturalNumbers(number1 + 1, number2);
     }
     else if (number1 > number2)
     {
-        sum = sum + NaturalNumbers(number1-1, number2);
+        sum = sum + NaturalNumbers(number1 - 1, number2);
     }
     return sum;
 }
